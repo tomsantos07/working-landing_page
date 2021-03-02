@@ -38,7 +38,8 @@ header img {
     /* text-align: right; */
 }
 
-form {
+.form {
+    border-radius: 5px;
     padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
@@ -49,8 +50,58 @@ form {
     background-color: white;
 }
 
-form h2 {
+.form h2 {
     font-weight: normal;
     color: #999999;
     font-size: 21px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container span {
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+}
+
+.form p {
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.input-container input[type=text] {
+    border-radius: 5px;
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+}
+
+.form .input-submit-container {
+    text-align: center;
+}
+
+.form input[type=submit] {
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 200px;
+    height: 56px;
+    background-color: #363A6D;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 5px solid #4A5097;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form input[type=submit]:hover {
+    background-color: #323665;
 }
