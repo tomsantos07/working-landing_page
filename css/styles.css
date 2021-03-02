@@ -46,8 +46,9 @@ header img {
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border: 8px solid rgba(120,120,120,0.5);
     background-color: white;
+    background-clip: padding-box;
 }
 
 .form h2 {
@@ -104,4 +105,50 @@ header img {
 
 .form input[type=submit]:hover {
     background-color: #323665;
+}
+
+.container-list {
+    padding: 30px;
+    margin-top: 40px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33,35,67,0.7);
+}
+
+.container-list ul {
+    list-style-position: inside;
+}
+
+.container-list ul li {
+    margin-top: 18px;
+    color: white;
+}
+
+.container-2 {
+    padding: 40px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-2 h2 {
+    font-weight: bold;
+}
+
+.container-2 p {
+    width: 698px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+}
+
+.arrow {
+    position: relative;
+    top: 60px;
+    margin-left: -20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/arrow.png);
+    background-size: 100% 100%;
 }
